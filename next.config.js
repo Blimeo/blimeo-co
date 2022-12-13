@@ -5,6 +5,8 @@ const path = require("path");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  optimizeFonts: false,
+
   webpack(config) {
     config.plugins.push(
       new WasmPackPlugin({
