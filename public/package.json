@@ -1,0 +1,16 @@
+{
+  "name": "blimeo-wasm",
+  "collaborators": [
+    "Matthew Ye <matthewgeography@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "blimeo_wasm_bg.wasm",
+    "blimeo_wasm.js",
+    "blimeo_wasm_bg.js",
+    "blimeo_wasm.d.ts"
+  ],
+  "module": "blimeo_wasm.js",
+  "types": "blimeo_wasm.d.ts",
+  "sideEffects": false
+}
