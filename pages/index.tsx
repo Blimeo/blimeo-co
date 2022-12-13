@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { greet } from "../blimeo-wasm/pkg";
+// import { greet } from "../blimeo-wasm/pkg";
 import React, { useRef, useState } from "react";
 import { SocialIcon } from "react-social-icons";
 
