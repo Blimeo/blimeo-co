@@ -12,7 +12,7 @@ const nextConfig = {
         args: "--log-level warn",
       })
     );
-    config.experiments = { asyncWebAssembly: true };
+    config.experiments = { layers: true, asyncWebAssembly: true };
     return config;
   },
 };
